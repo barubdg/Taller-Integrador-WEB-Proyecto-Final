@@ -1,0 +1,446 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contenedorpromociones{
+    width: 1490px;
+    height: 500px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.vistaslide{
+    width: 1390px;
+    height: 400px;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 7px 15px 10px #565454;
+}
+
+.n0{
+    background-image: url('../slider_fotos_principal/imagenes_empresa/e1.jpg');
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.n1{
+    background-image: url('../slider_fotos_principal/imagenes_empresa/e2.jpg');
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.n2{
+    background-image: url('../slider_fotos_principal/imagenes_empresa/e3.jpg');
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 210px 15px;
+    cursor: pointer;
+}
+
+.botonfo:hover{
+    background-color: rgba(255,255,255,0.4);
+    transition: 0.5s;
+}
+
+.derecha{
+    right: 0px;
+}
+
+.izquierda{
+    left: 0px;
+}
+
+/*paginación*/
+
+.paginasion{
+    position: absolute;
+    bottom: 1vw;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.paginasion li{
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.paginasion li:hover{
+    background-color: rgba(255,255,255,0.4);
+    transition: 0.5s;
+}
+
+@media (max-width: 1280px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 500px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 86.3vw;
+    height: 399px;;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 7px 15px 10px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 210px 15px;
+    cursor: pointer;
+    }
+       
+} 
+
+@media (max-width: 1130px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 500px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 90.5%;
+    height: 399px;;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 7px 15px 10px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 208px 15px;
+    cursor: pointer;
+    }
+    
+    
+} 
+
+@media (max-width: 1000px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 50vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 84.4vw;
+    height: 39.7vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 5px 13px 8px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20.8vw 1vw;
+    cursor: pointer;
+    }
+
+    .paginasion{
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    }    
+
+} 
+
+
+
+@media (max-width: 860px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 40vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 82.5vw;
+    height: 28.2vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 3px 11px 6px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 15.3vw 0.8vw;
+    cursor: pointer;
+    }
+    
+    .paginasion{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    }    
+    
+} 
+
+
+@media (max-width: 740px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 40vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 80.4vw;
+    height: 26.3vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 3px 11px 6px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14.5vw 0.8vw;
+    cursor: pointer;
+    }
+    
+    .paginasion{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    }    
+    
+    .paginasion li{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+    
+} 
+
+@media (max-width: 680px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 30vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 79.4vw;
+    height: 15.4vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 9px 4px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 9.2vw 0.5vw;
+    cursor: pointer;
+    }
+    
+} 
+
+@media (max-width: 620px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 28vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 77.5vw;
+    height: 12vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 7px 2px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 7.5vw 0.05vw;
+    cursor: pointer;
+    }
+    
+} 
+
+@media (max-width: 600px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 28vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 76.7vw;
+    height: 11vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 7px 2px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 7.2vw 0.05vw;
+    cursor: pointer;
+    }
+    
+} 
+
+@media (max-width: 540px) {
+    
+    #contenedorpromociones{
+    width: 98%;
+    height: 26vw;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    }
+    
+    .vistaslide{
+    width: 74.5vw;
+    height: 7.3vw;
+    text-align: center;
+    padding: 50px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+    box-shadow: 0px 1px 7px 2px #565454;
+    }
+    
+    .botonfo{
+    position: absolute;
+    top: 0px;
+    font-size: 70px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+    padding: 5.5vw 0.01vw;
+    cursor: pointer;
+    }
+    
+    .paginasion{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    }    
+    
+    .paginasion li{
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+    
+} 
+
