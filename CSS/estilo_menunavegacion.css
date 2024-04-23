@@ -1,0 +1,65 @@
+/* Estilo para el menú de navegación */
+
+#cuerpo{
+    width: 100%;
+    background-color: #efeded;
+    height: 4.7vw;
+    overflow-x: hidden;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    margin-top: 0.4vw;
+}
+
+#cuerpodos {
+    background-color: #999999; /* Color de fondo */
+    padding: 10px; /* Espaciado interior */
+    width: auto;
+    margin-left: 2vw;
+    margin-top: 0vw;
+    margin-right: 2vw;
+    height: 3vw;
+}
+
+#menu {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 0.6vw; /* Espaciado interior */
+    width: auto; /* Tamaño de ancho */
+    display: block; /* Elemento en línea, para que se muestre al costado de redessociales */
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 30px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF; /* Color de fondo de los botones */
+    padding: 5px 60px;  /*Espacio interno de los botones (arriba/abajo y izquierda/derecha) */
+    border-radius: 5px; /* Borde redondeado para los botones */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+    margin-left: 3.2vw;
+    margin-top: -10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+#menu a:hover {
+    background-color: #ff0000; /* Cambia el color de fondo en el hover */
+    transform: scale(1.05, 1.05);
+}
+
+#menu li {
+    display: inline; /* Mostrar los elementos en línea */
+    
+}
+

@@ -1,0 +1,25 @@
+/* Estilo para el (div) videoeimagen */
+#videoeimagen {
+    width: auto;
+    background-color: #ffffff;
+    height: 25vw;
+    margin-left: -0.5vw;
+    margin-right: -0.3vw;
+    overflow-x: no-content !important;
+}
+
+.videoindex{
+    border: #333333;
+    width: 100%;
+    height: 25vw;
+}
+
+.videoindex>iframe{
+    width: 100%;
+    height: 25vw;
+}
+
+
+/* Estilo para pantallas con un ancho máximo de 568px */
+
+

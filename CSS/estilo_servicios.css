@@ -1,0 +1,513 @@
+/*estilo servicios */
+#contenedorservicios{
+    width: auto;
+    height: 41.2vw;
+    background-color: #ffffff;
+    margin-left: -0.5vw;
+    margin-right: -0.4vw;
+    border: #666;
+}
+
+#contenedorservicios>p{
+    width: 28vw;
+    height: 2.3vw;
+    margin-left: 35vw;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#contenedorservicios>h4{
+    width: 95vw;
+    height: auto;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+    margin-top: -1.2vw;
+    margin-left: 25px;
+}
+
+#contenedorservicios>h3{
+    width: 32vw;
+    height: 2.2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: -1.2vw;
+    margin-left: 33vw;
+    font-family: sans-serif;
+}
+
+/*servicio 1*/
+#servicio1 {
+    position: relative;
+    width: auto;
+    height: 13.5vw;
+    margin-left: 0vw;
+    margin-right: 66.5vw;
+    margin-top: -1.9vw;
+}
+
+#mantenimientocarros {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s;
+}
+
+.texto-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semi-transparente (más oscuro) */
+    padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+    border-radius: 5px; /* Bordes redondeados */
+    opacity: 0;
+}
+
+#servicio1:hover .texto-hover {
+    content: "Mantenimiento de carros"; /* Texto personalizado */
+    opacity: 1;
+}
+
+#servicio1:hover {
+    opacity: 0.8; /* Fondo semi-transparente (más oscuro) */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg);
+    transform: scale(1.03, 1.03);
+}
+
+
+/*servicio 2*/
+#servicio2 {
+    position: relative;
+    width: auto;
+    height: 13.5vw;
+    margin-left: 32.2vw;
+    margin-right: 33.5vw;
+    margin-top: -13.5vw;
+    /*margin-bottom: -27.6vw;*/
+}
+
+#reparacionradiador {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s;
+    /* Agrega transiciones de opacidad y filtro */
+}
+
+.texto-hover2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+    border-radius: 5px; /* Bordes redondeados */
+    opacity: 0;
+}
+
+#servicio2:hover .texto-hover2 {
+    content: "Reparación de radiadores"; /* Texto personalizado */
+    opacity: 1;
+}
+
+#servicio2:hover #reparacionradiador {
+    opacity: 0.8;
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg);
+    transform: scale(1.03, 1.03);
+}
+
+
+/*servicio 3*/
+#servicio3 {
+    position: relative;
+    width: auto;
+    height: 13.5vw;
+    margin-left: 65vw;
+    margin-right: 0vw;
+    margin-top: -13.5vw;
+}
+
+#ventaradiador {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s;
+    /* Agrega transiciones de opacidad y filtro */
+}
+
+.texto-hover3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+    border-radius: 5px; /* Bordes redondeados */
+    opacity: 0;
+}
+
+#servicio3:hover .texto-hover3 {
+    content: "Venta de radiadores"; /* Texto personalizado */
+    opacity: 1;
+}
+
+#servicio3:hover #ventaradiador {
+    opacity: 0.8;
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg);
+    transform: scale(1.03, 1.03);
+}
+
+
+/*servicio 4*/
+#servicio4 {
+    position: relative;
+    width: 50%;
+    height: 15.4vw;
+    margin-left: 0vw;
+    margin-right: 49.4vw;
+    margin-top: 0vw;
+}
+
+#cambioradiador {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s;
+    /* Agrega transiciones de opacidad y filtro */
+}
+
+.texto-hover4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+    border-radius: 5px; /* Bordes redondeados */
+    opacity: 0;
+}
+
+#servicio4:hover .texto-hover4 {
+    content: "Cambio de radiador"; /* Texto personalizado */
+    opacity: 1;
+}
+
+#servicio4:hover #cambioradiador {
+    opacity: 0.8;
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg);
+    transform: scale(1.03, 1.03);
+}
+
+/*servicio 5*/
+#servicio5 {
+    position: relative;
+    width: 50%;
+    height: 15.4vw;
+    margin-left: 50%;
+    /*margin-right: 0vw;*/
+    margin-top: -15.4vw;
+}
+
+#cambiorefrigerante {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s;
+    /* Agrega transiciones de opacidad y filtro */
+}
+
+.texto-hover5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+    border-radius: 5px; /* Bordes redondeados */
+    opacity: 0;
+}
+
+#servicio5:hover .texto-hover5 {
+    content: "Cambio de refrigerante"; /* Texto personalizado */
+    opacity: 1;
+}
+
+#servicio5:hover #cambiorefrigerante {
+    opacity: 0.8;
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg);
+    transform: scale(1.03, 1.03);
+}
+
+
+@media (max-width: 1280px) {
+    
+    /*estilo servicios */
+    #contenedorservicios{
+        width: auto;
+        height: 41.3vw;
+        background-color: #ffffff;
+        margin-left: -0.5vw;
+        margin-right: -0.4vw;
+        border: #666;
+    }
+    
+    /*servicio 2*/
+#servicio2{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 31.5vw;
+    margin-right: 33.5vw;
+    margin-top: -13.5vw;
+    /*margin-bottom: -27.6vw;*/
+}
+
+#reparacionradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#reparacionradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+/*servicio 3*/
+#servicio3{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 64.5vw;
+    margin-right: 0vw;
+    margin-top: -13.5vw;
+}
+
+#ventaradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#ventaradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+}
+
+
+
+@media (max-width: 1000px) {
+ 
+        /*servicio 2*/
+#servicio2{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 31.0vw;
+    margin-right: 33.5vw;
+    margin-top: -13.5vw;
+    /*margin-bottom: -27.6vw;*/
+}
+
+#reparacionradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#reparacionradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+/*servicio 3*/
+#servicio3{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 64vw;
+    margin-right: 0vw;
+    margin-top: -13.5vw;
+}
+
+#ventaradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#ventaradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+    
+}
+
+@media (max-width: 850px) {
+ 
+        /*servicio 2*/
+#servicio2{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 30.5vw;
+    margin-right: 33.5vw;
+    margin-top: -13.5vw;
+    /*margin-bottom: -27.6vw;*/
+}
+
+#reparacionradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#reparacionradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+/*servicio 3*/
+#servicio3{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 63.5vw;
+    margin-right: 0vw;
+    margin-top: -13.5vw;
+}
+
+#ventaradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#ventaradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+    
+}
+
+@media (max-width: 680px) {
+    
+    /*estilo servicios */
+    #contenedorservicios{
+        width: auto;
+        height: 41vw;
+        background-color: #ffffff;
+        margin-left: -0.5vw;
+        margin-right: -0.4vw;
+        border: #666;
+    }
+    
+        /*servicio 2*/
+#servicio2{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 29.5vw;
+    margin-right: 33.5vw;
+    margin-top: -13.5vw;
+    /*margin-bottom: -27.6vw;*/
+}
+
+#reparacionradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#reparacionradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+/*servicio 3*/
+#servicio3{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 63vw;
+    margin-right: 0vw;
+    margin-top: -13.5vw;
+}
+
+#ventaradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#ventaradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+    
+}
+
+@media (max-width: 580px) {
+ 
+        /*servicio 2*/
+#servicio2{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 28.5vw;
+    margin-right: 33.5vw;
+    margin-top: -13.5vw;
+    /*margin-bottom: -27.6vw;*/
+}
+
+#reparacionradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#reparacionradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+/*servicio 3*/
+#servicio3{
+    width: auto;
+    height: 13.5vw;
+    margin-left: 62vw;
+    margin-right: 0vw;
+    margin-top: -13.5vw;
+}
+
+#ventaradiador{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s, filter 0.3s; /* Agrega transiciones de opacidad y filtro */
+}
+
+#ventaradiador:hover {
+    opacity: 0.8; /* Cambia la opacidad cuando el mouse pasa sobre la imagen */
+    filter: grayscale(0%) sepia(100%) hue-rotate(0deg); /* Cambia el color a rojo */
+    transform: scale(1.03, 1.03);
+}
+
+
+    
+}

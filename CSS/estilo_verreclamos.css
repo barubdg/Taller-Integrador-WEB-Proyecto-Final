@@ -1,0 +1,166 @@
+/*reclamos*/
+
+/* Estilo para el contenedor de reclamos */
+.reclamos {
+    max-width: 32.7vw;
+    margin: 5vw auto;
+    padding: 2vw;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.reclamo_general{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+/*    width: 15vw;*/
+/*    border: 1px solid black;*/
+/*    margin-right: 2.5vw;
+    margin-top: 0vw;
+    margin-bottom: 2vw;*/
+}
+
+.contenedor_de_nombres_reclamo_bd{
+    max-width: 32.7vw;
+    padding: 1.7vw;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.contenedornombrereclamo{
+    height: 2.3vw;
+    width: auto;
+    font-size: 1vw;
+    margin-top: -0.2vw; 
+}
+
+.reclamoBD{
+    width: 15vw;
+/*    border: 1px solid black;*/
+    margin-right: 2.5vw;
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+}
+
+.contenedor_de_reclamo_bd{
+    max-width: 32.7vw;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+/*tabla de reclamo reclamo*/
+
+.reclamoreclamoBD{
+    width: 30vw;
+    height: 2.7vw;
+/*    height: 100%;*/
+/*    border: 1px solid #007bff;*/
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+}
+
+.contenedor_de_reclamo_reclamo_bd{
+    max-width: 32.7vw;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.contenedorreclamoreclamo{
+    height: 2.9vw;
+    width: auto;
+    font-size: 1.1vw;
+}
+
+
+/*titulos nombre y reclamo*/
+
+.nombre_recla_bd{
+    position: absolute;
+    width: 17vw;
+    height: auto;
+/*    border: 1px solid black;*/
+    margin-top: 4vw;
+    margin-left: 8vw;
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.reclamo_recla_bd{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+/*    border: 1px solid black;*/
+    margin-top: 4vw;
+    margin-left: 58vw;
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* Estilo para el encabezado h1 */
+.reclamos h1 {
+    text-align: center;
+    color: #007bff; /* Color azul para el encabezado */
+}
+
+/* Estilo para las etiquetas de los campos de entrada */
+.reclamos label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para los campos de entrada de texto */
+.reclamos input[type="text"],
+.reclamos textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#correoreclamo{
+    width: 32.4vw;
+    padding: 10px;
+    margin-bottom: 1vw;
+}
+
+/* Estilo para el campo de entrada de texto grande */
+.reclamos textarea {
+    height: 150px;
+}
+
+/* Estilo para el botón de envío */
+.reclamos input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el mouse */
+.reclamos input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color al azul más oscuro al pasar el mouse */
+}
+
+#enviarreclamo:hover{
+    background-color: #ff0000;
+    transform: scale(1.05, 1.05);
+}

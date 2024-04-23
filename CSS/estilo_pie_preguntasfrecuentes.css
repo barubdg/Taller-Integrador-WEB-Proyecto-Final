@@ -1,0 +1,573 @@
+/*estilo para el pie*/
+#pies{
+    width: auto;
+    height: 45vh;
+    background-color: #333333;
+    margin-left: -1vw;
+    margin-top: auto;
+    margin-right: -0.4vw;
+    margin-bottom: 0vw;
+}
+
+#logopies>img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 90px;
+    filter: blur(0.8px); /* Ajusta el valor para controlar la intensidad del desenfoque */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Ajusta el valor de "10px" para controlar la intensidad del resplandor */
+    
+}
+
+/*texto del pie de la pagina*/
+#textodireccion{
+    margin-left: 280px;
+    margin-top: -235px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#textodireccionprincipal{
+    margin-left: 280px;
+    margin-top: 10px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textodireccionubicacion{
+    margin-left: 280px;
+    margin-top: 3px;
+    color: #cccccc;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textodireccionsede{
+    margin-left: 280px;
+    margin-top: 20px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textodireccionubicaciondos{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#textoredessociales{
+    margin-left: 610px;
+    margin-top: -255px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#textofacebook{
+    margin-left: 610px;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoface{
+    margin-left: 610px;
+    margin-top: 3px;
+    color: #cccccc;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoinstagram{
+    margin-left: 610px;
+    margin-top: 20px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoinsta{
+    margin-left: 610px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoaceptamos{
+    margin-left: 61vw;
+    margin-top: -230px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#visapie{
+    width: 80px;
+    height: 50px;
+    margin-left: 60vw;
+    margin-top: 5px;
+}
+
+#mastercardpie{
+    width: 80px;
+    height: 50px;
+    margin-left: 67vw;
+    margin-top: -55px;
+    display: flex;
+}
+
+#textotelefono{
+    margin-left: 78vw;
+    margin-top: -110px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#textowsp{
+    margin-left: 78vw;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textocorreoelectronico{
+    margin-left: 78vw;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textonumerowsp{
+    margin-left: 78vw;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textocorreo{
+    margin-left: 78vw;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+/* Estilo para pantallas con un ancho máximo de 568px */
+@media (max-width: 1280px) {
+    #pies{
+        width: auto;
+        height: 70vh;
+        background-color: #333333;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    /*texto del pie de la pagina*/
+#textodireccion{
+    margin-left: 280px;
+    margin-top: -235px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#textodireccionprincipal{
+    margin-left: 280px;
+    margin-top: 10px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textodireccionubicacion{
+    margin-left: 280px;
+    margin-top: 3px;
+    color: #cccccc;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textodireccionsede{
+    margin-left: 280px;
+    margin-top: 20px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textodireccionubicaciondos{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#textoredessociales{
+    margin-left: 610px;
+    margin-top: -195px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#textofacebook{
+    margin-left: 610px;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoface{
+    margin-left: 610px;
+    margin-top: 3px;
+    color: #cccccc;
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoinstagram{
+    margin-left: 610px;
+    margin-top: 20px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoinsta{
+    margin-left: 610px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+}
+
+#textoaceptamos{
+    margin-left: 90px;
+    margin-top: 120px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#visapie{
+    width: 80px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#mastercardpie{
+    width: 80px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: -55px;
+    display: flex;
+}
+
+#textotelefono{
+    margin-left: 450px;
+    margin-top: -90px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 25px;
+}
+
+#textowsp{
+    margin-left: 450px;
+    margin-top: 10px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textocorreoelectronico{
+    margin-left: 700px;
+    margin-top: -70px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textonumerowsp{
+    margin-left: 450px;
+    margin-top: 10px;
+    color: #cccccc;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#textocorreo{
+    margin-left: 700px;
+    margin-top: 10px;
+    color: #cccccc;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+}
+
+
+/* Estilo para pantallas con un ancho máximo de 568px */
+@media (max-width: 1000px) {
+    #pies{
+        width: auto;
+        height: 75vh;
+        background-color: #333333;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #logopies>img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 90px;
+    filter: blur(0.8px); /* Ajusta el valor para controlar la intensidad del desenfoque */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Ajusta el valor de "10px" para controlar la intensidad del resplandor */
+    
+}
+
+    /*texto del pie de la pagina*/
+#textodireccion{
+    margin-left: 280px;
+    margin-top: -220px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    
+}
+
+#textodireccionprincipal{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#textodireccionubicacion{
+    margin-left: 280px;
+    margin-top: 3px;
+    color: #cccccc;
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#textodireccionsede{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#textodireccionubicaciondos{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+}
+
+#textoredessociales{
+    margin-left: 280px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#textofacebook{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    font-size: 14px;
+}
+
+#textoface{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 200px;
+    height: 25px;
+    font-size: 14px;
+}
+
+#textoinstagram{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    font-size: 14px;
+}
+
+#textoinsta{
+    margin-left: 280px;
+    margin-top: 0px;
+    color: #cccccc;
+    width: 130px;
+    height: 25px;
+    font-size: 14px;
+}
+
+#textoaceptamos{
+    margin-left: 90px;
+    margin-top: -80px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#visapie{
+    width: 80px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#mastercardpie{
+    width: 80px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: -55px;
+    display: flex;
+}
+
+#textotelefono{
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#textowsp{
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#textocorreoelectronico{
+    margin-left: 300px;
+    margin-top: -70px;
+    color: #cccccc;
+    font-weight: bold;
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#textonumerowsp{
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #cccccc;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#textocorreo{
+    margin-left: 300px;
+    margin-top: 10px;
+    color: #cccccc;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+}
+
+}

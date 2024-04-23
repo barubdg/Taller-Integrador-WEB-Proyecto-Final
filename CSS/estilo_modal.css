@@ -1,0 +1,126 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+    text-align: start;
+    
+}
+
+.modal2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal3{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal4{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal5{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.contenedormodal{
+    width: 60vw;
+    height: 33vw;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+/*.contenedormodal header{
+    padding: 10vw;
+    background-color: #db8046;
+    color: #fff;
+    margin-left: 70%;
+    
+}*/
+
+
+.contenedormodal label{
+    position: absolute;
+    top: 0.5vw;
+    right: 2vw;
+    color:#fff;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+
+.textocontenedormodal {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    width: 50%;
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.imagenmodal img {
+    max-width: 100%; /* Ajustar la imagen para que no exceda su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-top: 75px;
+}
+
+.contenido{
+    margin-left: 0px;
+    background-color: #db8046;
+     width: 50%;
+}
+
+.textomodal{
+   margin-top: 40px;
+   margin-left: 10px;
+}
+
+.imagenmodal{
+    
+    
+}
+
+

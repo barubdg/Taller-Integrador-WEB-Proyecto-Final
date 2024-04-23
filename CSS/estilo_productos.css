@@ -1,0 +1,315 @@
+/*productos*/
+
+/*#contenedormenusproducto{
+    width: 98%;
+    margin-left: 1vw;
+    border: 4px solid#000000; 
+    height: 70vw;
+    background-color: #efeded;
+}*/
+
+#contenedormenusproducto{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+#contenedormenusdos{
+    display: block;
+}
+
+#contenedormenusdos .clickon .clickon3{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    row-gap: 30px;
+    width: 100%;
+    transition: .3s;
+    
+}
+
+
+#tituloproducto{
+    width: 60vw;
+    height: 6vw;
+    font-size: 2.5vw;
+    text-align: center;
+/*    text-decoration: underline;*/
+    font-family: bold;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.producto{
+    border: 1px solid #0000ff;
+    box-shadow: 5px 5px 5px 5px #0000ff;
+    height: 25vw;
+    border-radius: 10px;
+    padding: 0.7em;
+    text-align: center;     
+    margin-bottom: 2vw;
+    margin-top: 0vw;
+    background-color: #ffffff;
+}
+
+
+            
+.producto:hover{
+    background-color: #ef002f;
+    transform: scale(1.06, 1.06);
+}
+            
+.producto img{
+    display: block;
+    width: 15vw;
+    height: 15vw;
+    margin: 10px auto;
+}
+
+.contenedornombre{
+    padding: 0.2em;
+    width: 13vw;
+    height: 4vh;
+}
+
+.nombreproducto{
+    font-family: sans-serif;
+    font-size: 1vw;
+    margin-top: -0.1vw;
+}
+
+.codigoproducto{
+    width: 15vw;
+    height: 2vw;
+    text-align: start;
+    font-family: sans-serif;
+    margin-top: 0.2vw;
+    font-size: 0.9vw;
+}
+
+.precioproducto{
+    width: 10vw;
+    height: 1.7vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    margin-top: -1.3vw;
+}
+
+.precioproductoducto{
+    width: 10vw;
+    height: 1.7vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    margin-top: 1.5vw;
+    display: block;
+}
+
+.imagen-compr{
+    display: block;
+}
+
+.nombreproductoradiador{
+    color: #0000ff;
+    width: 15vw;
+    height: 3vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+.precioproductoradiador{
+    color: #0000ff;
+    width: 10vw;
+    height: 1.7vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    margin-top: 1.5vw;
+}
+
+
+
+.custom-link-produ {
+    color: #0000ff; /* Color del texto */
+    cursor: pointer;
+}
+
+
+/* Estilos para enlaces personalizados */
+.custom-link {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Color del texto */
+    cursor: pointer;
+}
+
+.custom-link:hover {
+    color: #ef002f; /* Cambia el color del texto en hover */
+}
+
+
+.productoradiadores15{
+    width: 15vw;
+    height: 1.7vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1vw;
+    margin-top: 3vw;
+}
+
+.producto_produ{
+    cursor: pointer;
+}
+
+.produ15{
+    border: 1px solid #ef002f;
+    box-shadow: 5px 5px 5px 5px #ef002f;
+    height: 25vw;
+    border-radius: 10px;
+    padding: 0.7em;
+    text-align: center;     
+    margin-bottom: 2vw;
+    margin-top: 0vw;
+    background-color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agregamos transición para el fondo */
+}
+            
+.produ15:hover{
+    background-color: #ef002f;
+    transform: scale(1.06, 1.06);
+    
+}
+            
+.produ15 img{
+    display: block;
+    width: 15vw;
+    height: 15vw;
+    margin: 10px auto;
+}
+
+.nombreproducto15{
+    width: 14.7vw;
+    height: 2vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+.produ15::before {
+    content: "+";
+    font-size: 5vw;
+    color: #000;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.produ15:hover::before {
+    display: block;
+}
+
+.produ15 .content {
+    position: relative;
+    z-index: 1; /* Aseguramos que el contenido esté por encima del signo "+" */
+}
+
+.produ15:hover {
+    background-color: #ccc;
+}
+
+
+.hide-content {
+    display: none;
+}
+
+.produ15:hover p{
+    display: none;
+}
+
+/*diversidad*/
+
+
+.separadorproductos{
+    width: 100%;
+    height: 3vw;
+/*    border: 1px solid #000;*/
+    text-align: center;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.tituloproducto2{
+    margin-top: -0.1vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.descriproducto{
+/*    border: 1px solid black;*/
+    width: 15vw;
+    height: 5vw;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 1vw;
+    margin-top: 1.1vw;
+}
+
+.nombreproductodiversidad{
+    
+}
+
+.nombreproductodiversidad{
+    font-family: sans-serif;
+    font-size: 1.6vw;
+    margin-top: -0.1vw;
+}
+
+.contenedoriconocarrito{
+    border: 1px solid black;
+    background-color: #0033ff;
+    height: 2vw;
+    width: 12vw;
+    margin: 0 auto;
+    border-radius: 7px;
+    border-color: #0033ff;
+}
+
+.contenedoriconocarrito:hover{
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+
+#textocarrito{
+   margin-top: 0.3vw;
+   font-family: sans-serif;
+   font-size: 1vw;
+   margin-left: 1.7vw;
+   font-weight: bold;
+   color:#ffffff;
+}
+
+
+
+
+/*estilo para ocultar*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+/*reclamos*/
+
+/* Estilo para el contenedor de reclamos */
+.reclamos {
+    max-width: 32.7vw;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado h1 */
+.reclamos h1 {
+    text-align: center;
+    color: #007bff; /* Color azul para el encabezado */
+}
+
+/* Estilo para las etiquetas de los campos de entrada */
+.reclamos label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para los campos de entrada de texto */
+.reclamos input[type="text"],
+.reclamos textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#correoreclamo{
+    width: 32.4vw;
+    padding: 10px;
+    margin-bottom: 1vw;
+}
+
+/* Estilo para el campo de entrada de texto grande */
+.reclamos textarea {
+    height: 150px;
+}
+
+/* Estilo para el botón de envío */
+.reclamos input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el mouse */
+.reclamos input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color al azul más oscuro al pasar el mouse */
+}
+
+#enviarreclamo:hover{
+    background-color: #ff0000;
+    transform: scale(1.05, 1.05);
+}

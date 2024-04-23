@@ -1,0 +1,249 @@
+/*estilo para contactanos*/
+
+#contenedorcontactanos{
+    width: 100%;
+    height: 100vw;
+    border: 2px solid black;
+    background-color: #efeded;
+}
+
+#ubicanos{
+    width: 17vw;
+    height: 2.5vw;
+    text-align: center;
+    font-size: 2.4vw;
+    font-weight: bold;
+    margin-left: 40vw;
+    
+}
+
+/*#contenedorcontactanos>p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}*/
+
+/*ubi uno */
+#ubi1{
+    width: 39vw;
+    height: 31.5vw;
+    margin-left: 8vw;
+    margin-top: 3vw;
+}
+
+.ubicaciones{
+    width: 18vw;
+    height: 2vw;
+    margin-top: 0vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.direcciones{
+    width: 100%;
+    margin-top: -0.5vw;
+    font-size: 1.5vw;
+}
+
+.oficinas{
+    width: 99%;
+    height: 78%;
+    margin-top: 20px;
+}
+
+.mapas{
+    width: 100%;
+    height: 100%;
+}
+
+/*linea separadora vertical*/
+.linea-vertical {
+    width: 0.2vw; /* Grosor de la línea */
+    height: 22.7vw; /* Altura de la línea (ajusta según tus necesidades) */
+    background-color: #000; /* Color de la línea (aquí, negro) */
+    margin: 0 auto; /* Centra la línea horizontalmente en su contenedor */
+    margin-top: -25vw;
+}
+
+/*ubi 2*/
+#ubi2{
+    width: 39vw;
+    height: 31.5vw;
+    margin-left: 50.7vw;
+    margin-top: -29.2vw;
+}
+
+.ubiestilo{
+    box-shadow: 5px 25px 25px #565454;
+}
+
+.linea-separador-ubi-dos{
+    margin-top: 6vw;
+    width: 100%; /* Ancho de la línea */
+    height: 0.2vw; /* Grosor de la línea */
+    background: linear-gradient(to left, transparent 25%, #000 25%, #000 75%, transparent 75%, transparent); /* Degradado lineal con áreas de transparencia y áreas marcadas en el centro */
+}
+
+#atenciontelefono{
+    font-size: 2vw;
+    margin-left: 4vw;
+    margin-top: 1vw;
+    width: 34vw;
+    height: 3vw;
+    font-weight: bold;
+}
+
+#atencionhorario{
+    width: 22vw;
+    height: 3vw;
+    margin-left: 68vw;
+    margin-top: -5vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#datoventas{
+    font-size: 1.7vw;
+    margin-left: 4vw;
+    margin-top: 0vw;
+    width: 25vw;
+    height: 3vw;
+}
+
+#achicardatos1{
+    width: 32vw;
+    height: 2vw;
+    font-size: 1.4vw;
+    margin-left:8vw;
+    margin-top: 0vw;
+    display: inline-block;
+}
+
+#achicardatos2{
+    height: 2vw;
+    width: 90vw;
+    font-size: 1.4vw;
+    margin-left:8vw;
+    margin-top: 3vw;
+}
+
+#achicardatos3{
+    height: 2vw;
+    width: 30vw;
+    font-size: 1.4vw;
+    margin-left:8vw;
+    margin-top: 3vw;
+    display: inline-block;
+}
+
+#achicardatosdos{
+    width: 20vw;
+    height: 2vw;
+    font-size: 1.4vw;
+    margin-left: 72vw;
+    margin-top: -12vw;
+}
+
+#achicardatostres{
+    width: 24vw;
+    height: 2vw;
+    font-size: 1.4vw;
+    margin-left: 72vw;
+    margin-top: -10vw;
+}
+
+/*imagenes redondas*/
+.redondo {
+    width: 3.2vw; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 3.2vw; /* Ajusta el tamaño de la imagen según tus necesidades */
+    overflow: hidden;
+    border-radius: 50%; /* Esto crea un borde circular */
+    margin-top: 25px;
+}
+
+.redondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto asegura que la imagen llene el círculo sin distorsión */
+}
+
+#reloj1{
+    margin-left: 67vw;
+    margin-top: -3.5vw;
+}
+
+#reloj2{
+    margin-left: 67vw;
+    margin-top: 3.3vw;
+}
+
+#ubicacion1{
+    margin-left: 3.5vw;
+    margin-top: -5.8vw;
+    
+}
+
+#ubicacion2{
+    margin-left: 3.5vw;
+    margin-top: 2.7vw;
+}
+
+#email{
+    margin-left: 3.5vw;
+    margin-top: 2.7vw;
+}
+
+/*tipos pago*/
+#tipospago{
+    width: 40vw;
+    height: 3vw;
+/*    border: 1px solid black;*/
+    font-size: 2.4vw;
+    font-weight: bold;
+    margin-top: 9.5vw;
+    margin-left: 30vw;
+}
+
+#imagenestipopago{
+    width: 80%;
+    height: 9.8vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 10px 10px  #565454;
+}
+
+.icon{
+    width: 100%;
+    height: 100%;
+}
+
+#yape{
+    width: 25%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#plin{
+    width: 25%;
+    height: 100%;
+    margin-left: 25%;
+    margin-top: -9.8vw;
+    background-color: #ffffff;
+}
+
+#visa{
+    width: 25%;
+    height: 100%;
+    margin-left: 50%;
+    margin-top: -9.8vw;
+    background-color: #ffffff;
+}
+
+#master{
+    width: 25%;
+    height: 100%;
+    margin-left: 75%;
+    margin-top: -9.8vw;
+    background-color: #ffffff;
+}
+

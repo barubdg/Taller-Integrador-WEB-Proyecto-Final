@@ -1,0 +1,117 @@
+#cabesilla {
+    background-color: #999999; /* Color de fondo */
+    padding: 0.7em; /* Espaciado interior */
+    width: auto;
+    margin-right: -0.6vw;
+    margin-left: -0.6vw;
+    height: 60px;
+    overflow-x: no-content !important;
+    margin-top: -0.62vw;
+}
+
+/* estilo (header) para redes sociales, deseos y login */
+#redessociales {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 11px; /* Espaciado interior */
+    width: auto; /* Tamaño de ancho */
+    height: 36px;
+    overflow-x: no-content;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+
+/*iconos */
+#iconface{
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+
+#iconinsta{
+    width: 38px;
+    height: 40px;;
+    margin-left: 80px;
+    margin-top: -32px;
+}
+
+#iconwsp{
+    width: 40px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: -47px;
+}
+
+#iconfala{
+    width: 80px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: -35px;
+}
+
+.social-icon-insta{
+    width: 99%;
+    height: 90%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.social-icon {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
+    }
+
+.social-icon-wsp {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.social-icon-fala{
+    width: 100%;
+    height: 100%;
+}
+
+#deseos{
+    margin-top: -30px;
+    margin-left: 54vw;
+    height: auto;
+    width: 15em;
+}
+
+/* Estilo para los items (li) de redes sociales y deseos */
+#redessociales li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin-right: 30px; /* Espacio entre elementos */
+}
+
+
+
+/* Estilo para los enlaces (a) en la barra de navegación */
+#redessociales a {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+}
+
+#deseos a {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-size: 18px; /* Tamaño de fuente */
+    font-family: sans-serif;
+}
+
+/* Estilo para los enlaces (hover) cuando se desplaza el mouse sobre ellos */
+#redessociales a:hover {
+    color: #007BFF; /* Cambiar el color del texto en el hover */
+}
+
+#deseos a:hover {
+    color: #007BFF; /* Cambiar el color del texto en el hover */
+}
+

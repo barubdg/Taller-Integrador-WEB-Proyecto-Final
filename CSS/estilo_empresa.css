@@ -1,0 +1,391 @@
+/*ESTILO empresa*/
+#contenedorempresamenu{
+    width: 100vw;
+    height: auto;
+    margin-left: -1vw;
+    margin-top: 0vw;
+    background-color: #f9feff;
+}
+
+#contenedorempresa{
+    width: 100%;
+    height: 100%;
+    margin-top: -2vw;
+}
+
+/*#contenedorempresa>h1{
+    width: 1200px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    
+}*/
+
+#textobienvenida{
+    width: 17vw;
+    height: 3vw;
+    margin-left: 40vw;
+    margin-top: 3vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+
+#nombreempresatitulo{
+    width: 57vw;
+    height: 3vw;
+    margin-left: 21vw;
+    margin-top: 0vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.7vw;
+    color: red;
+}
+
+.textoempresacabeza{
+    width: 54vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 2.5vw;
+    margin-left: 22.5vw;
+}
+
+.textoempresa{
+    width: 21vw;
+    height: auto;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+/*estilo para los cuadros de presentación de la empresa*/
+#cuadro1{
+    width: 72vw;
+    height: auto;
+    border: 2px solid #000000;
+    margin-left: 13vw;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+    background-color: #c9c9c9;
+}
+
+#cuadro1>h4{
+    width: 56vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.3vw;
+    color: #474242;
+}
+
+#cuadro2{
+    margin-top: 50px;
+    width: 72vw;
+    height: 16.5vw;
+    border: 2px solid #000000;
+    margin-left: 13vw;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+    background-color: #c9c9c9;
+}
+
+#cuadro2>h4{
+    width: 56vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.3vw;
+    color: #474242;
+}
+
+#cuadro3{
+    margin-top: 50px;
+    width: 72vw;
+    height: 16.5vw;
+    border: 2px solid #000000;
+    margin-left: 13vw;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+    background-color: #c9c9c9;
+}
+
+#cuadro3>h4{
+    width: 56vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.3vw;
+    color: #474242;
+}
+
+#cuadro4{
+    margin-top: 50px;
+    width: 72vw;
+    height: 16.5vw;
+    border: 2px solid #000000;
+    margin-left: 13vw;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+    background-color: #c9c9c9;
+}
+
+#cuadro4>h4{
+    width: 56vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.3vw;
+    color: #474242;
+}
+
+#cuadro5{
+    margin-top: 50px;
+    width: 72vw;
+    height: 16.5vw;
+    border: 2px solid #000000;
+    margin-left: 13vw;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+    background-color: #c9c9c9;
+}
+
+#cuadro5>h4{
+    width: 56vw;
+    height: auto;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.3vw;
+    color: #474242;
+}
+
+#imagenesempresatrabajadores{
+    margin-top: 7vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 15vw;
+}
+
+#imagen1empresa{
+    margin-left: 4vw;
+    width: 30%;
+    height: 100%;
+}
+
+#imagen2empresa{
+    margin-left: 0.3vw;
+    width: 30%;
+    height: 100%;
+}
+
+#imagen3empresa{
+    margin-left: 0.3vw;
+    width: 30%;
+    height: 100%;
+}
+
+
+
+
+
+/*separador*/
+.linea-desvaneciente {
+    margin-top: 6vw;
+    width: 100%; /* Ancho de la línea */
+    height: 0.2vw; /* Grosor de la línea */
+    background: linear-gradient(to left, transparent 25%, #000 25%, #000 75%, transparent 75%, transparent); /* Degradado lineal con áreas de transparencia y áreas marcadas en el centro */
+}
+/*-------------*/
+
+
+/*separador dos*/
+.linea-separador {
+    margin-top: 6vw;
+    width: 100%; /* Ancho de la línea */
+    height: 0.2vw; /* Grosor de la línea */
+    background: linear-gradient(to left, transparent 25%, #000 25%, #000 75%, transparent 75%, transparent); /* Degradado lineal con áreas de transparencia y áreas marcadas en el centro */
+}
+/*-------------*/
+
+
+
+/*mision empresa*/
+#misionyvision{
+    width: 35vw;
+    height: auto;
+    margin-left: 32vw;
+    margin-top: 6vw;
+    text-align: center;
+    font-size: 2.7vw;
+}
+
+#misionempresa{
+    width: 80%;
+    height: 13vw;
+    margin-left: 9.7vw;
+}
+
+.imagen-redonda {
+    width: 15vw; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 10vw; /* Ajusta el tamaño de la imagen según tus necesidades */
+    overflow: hidden;
+    margin-top: 1.6vw;
+    margin-left: -2.5vw;
+}
+
+.imagen-redonda img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto asegura que la imagen llene el círculo sin distorsión */
+}
+
+#textomisionempresa{
+    width: 80%;
+    height: 16vw;
+    border: 2px solid #000000;
+    margin-left: 15vw;
+    margin-top: -12vw;
+    background-color: #c9c9c9;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+    
+}
+
+#textomisionempresa>p{
+    width: 5vw;
+    height: 1.7vw;
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-left: 1.4vw;
+    margin-top: 1.4vw;
+    color: #f93636;
+}
+
+#textomisionempresa>h3{
+    width: 60vw;
+    height: 8vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+/*vision empresa*/
+#visionempresa{
+    width: 80%;
+    height: 13vw;
+    margin-left: 9.7vw;
+    margin-top: 10vw;
+}
+
+.imagen-redonda-dos {
+    width: 15vw; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 10vw; /* Ajusta el tamaño de la imagen según tus necesidades */
+    overflow: hidden;
+    margin-top: 1.6vw;
+    margin-left: -2.5vw;
+}
+
+.imagen-redonda-dos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto asegura que la imagen llene el círculo sin distorsión */
+}
+
+#textovisionempresa{
+    width: 80%;
+    height: 16vw;
+    border: 2px solid #000000;
+    margin-left: 15vw;
+    margin-top: -12vw;
+    background-color: #c9c9c9;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 25px 25px #565454;
+}
+
+#textovisionempresa>p{
+    width: 5vw;
+    height: 1.7vw;
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-left: 1.4vw;
+    margin-top: 1.4vw;
+    color: #f93636;
+}
+
+#textovisionempresa>h3{
+    width: 60vw;
+    height: 8vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+#resumenmisionvision{
+    width: 72vw;
+    height: 9.3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 14vw;
+    text-align: center;
+    margin-top: 10vw;
+}
+
+/*contactanos empresa*/
+#contactanosempresa{
+    width: 70%;
+    height: 16vw;
+    border: 1px solid #000000;
+    margin-top: 5vw;
+    margin-left: 15.5vw;
+    margin-bottom: 2vw;
+    background-color: #c9c9c9;
+}
+
+#contactanosempresa>p{
+    width: 11vw;
+    height: 2vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-left: 3.4vw;
+    margin-top: 1.5vw;
+    color: #f93636;
+}
+
+#contactanosempresa>h3{
+    width: 63vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 1vw;
+    margin-left: 3.4vw;
+}
+
+#contactanosempresa>h2{
+    width: 61vw;
+    height: 2vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 1vw;
+    margin-left: 3.4vw;
+}
+
+
+
