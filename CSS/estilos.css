@@ -1,0 +1,98 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efeded;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+/* Banner */
+
+#banner {
+    background-color: #000;
+    text-align: center;
+}
+
+/* Brands Section */
+
+#brands h2 {
+    text-align: center;
+}
+
+.brand-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-slider img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* About Section */
+
+#about h2 {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}

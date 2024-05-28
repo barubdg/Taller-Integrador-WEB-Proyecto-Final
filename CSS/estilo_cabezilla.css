@@ -23,16 +23,16 @@
 
 /*iconos */
 #iconface{
-    width: 45px;
-    height: 40px;
+    width: 230px;
+    height: 33px;
     margin-left: 10px;
-    margin-top: -8px;
+    
 }
 
 #iconinsta{
-    width: 38px;
+    width: 360px;
     height: 40px;;
-    margin-left: 80px;
+    margin-left: 120px;
     margin-top: -32px;
 }
 
@@ -99,6 +99,10 @@
     font-weight: bold; /* Negrita */
 }
 
+#Nombreusuario{
+    color: #ef002f;
+}
+
 #deseos a {
     text-decoration: none; /* Eliminar subrayado de enlaces */
     color: #fff; /* Color del texto de los enlaces */
@@ -108,10 +112,13 @@
 
 /* Estilo para los enlaces (hover) cuando se desplaza el mouse sobre ellos */
 #redessociales a:hover {
-    color: #007BFF; /* Cambiar el color del texto en el hover */
+    color: #FFF; /* Cambiar el color del texto en el hover */
 }
 
 #deseos a:hover {
     color: #007BFF; /* Cambiar el color del texto en el hover */
 }
 
+#redessociales .btn{
+    color: #ffc107;
+}

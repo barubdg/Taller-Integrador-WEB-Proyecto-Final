@@ -21,7 +21,7 @@
 }
 
 #menu {
-    background-color: #333; /* Color de fondo de la barra de navegación */
+    /*background-color: #333;*/ /* Color de fondo de la barra de navegación */
     padding: 0.6vw; /* Espaciado interior */
     width: auto; /* Tamaño de ancho */
     display: block; /* Elemento en línea, para que se muestre al costado de redessociales */

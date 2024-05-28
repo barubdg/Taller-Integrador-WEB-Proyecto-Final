@@ -511,3 +511,12 @@
 
     
 }
+
+
+
+#contenedorservicios p,
+#contenedorservicios h4,
+#contenedorservicios h3 {
+    font-size: 1.4vw; /* Ajusta el tamaño del texto según tus necesidades */
+    margin-bottom: 3rem; /* Ajusta la separación entre cada elemento de texto */
+}
